@@ -1,0 +1,106 @@
+{
+    "_type": "export",
+    "__export_format": 4,
+    "__export_date": "2025-01-15T18:45:29.440Z",
+    "__export_source": "insomnia.desktop.app:v10.3.0",
+    "resources": [
+        {
+            "_id": "req_d12b161223ad4ed29a03e0a7686d2312",
+            "parentId": "wrk_d335d1b788974ab99493edbf7ca3dacc",
+            "modified": 1736954579973,
+            "created": 1736210345879,
+            "url": "http://localhost:5001/forms",
+            "name": "New Request",
+            "description": "",
+            "method": "GET",
+            "body": {},
+            "parameters": [
+                {
+                    "id": "pair_85e14e35c3334dbeaf5a52ca27b273f9",
+                    "name": "dateFrom",
+                    "value": "01/01/25",
+                    "description": "",
+                    "disabled": true
+                },
+                {
+                    "id": "pair_271fa5b5714041869765492e53753160",
+                    "name": "dateTo",
+                    "value": "01/12/25",
+                    "description": "",
+                    "disabled": true
+                },
+                {
+                    "id": "pair_1a01f76bc7d04260ab028c31e0cf3330",
+                    "name": "fields",
+                    "value": "createdAt",
+                    "description": "",
+                    "disabled": true
+                },
+                {
+                    "id": "pair_474422c4660441f7bd78f9d682094ce6",
+                    "name": "sortBy",
+                    "value": "createdAt:desc",
+                    "description": "",
+                    "disabled": true
+                },
+                {
+                    "id": "pair_156f570daf034a318bbe1b8686e899fa",
+                    "name": "_id",
+                    "value": "65946a9e309c7648eb12161b",
+                    "description": "",
+                    "disabled": false
+                }
+            ],
+            "headers": [
+                {
+                    "name": "User-Agent",
+                    "value": "insomnia/10.3.0"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1736210345879,
+            "isPrivate": false,
+            "pathParameters": [],
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "wrk_d335d1b788974ab99493edbf7ca3dacc",
+            "parentId": null,
+            "modified": 1736210322668,
+            "created": 1736210322668,
+            "name": "aee_digital_api",
+            "description": "",
+            "scope": "collection",
+            "_type": "workspace"
+        },
+        {
+            "_id": "env_3791ca28d2b9129bd8a84a71901e14ba3ea8e395",
+            "parentId": "wrk_d335d1b788974ab99493edbf7ca3dacc",
+            "modified": 1736210322670,
+            "created": 1736210322670,
+            "name": "Base Environment",
+            "data": {},
+            "dataPropertyOrder": null,
+            "color": null,
+            "isPrivate": false,
+            "metaSortKey": 1736210322670,
+            "environmentType": "kv",
+            "_type": "environment"
+        },
+        {
+            "_id": "jar_3791ca28d2b9129bd8a84a71901e14ba3ea8e395",
+            "parentId": "wrk_d335d1b788974ab99493edbf7ca3dacc",
+            "modified": 1736210322671,
+            "created": 1736210322671,
+            "name": "Default Jar",
+            "cookies": [],
+            "_type": "cookie_jar"
+        }
+    ]
+}
